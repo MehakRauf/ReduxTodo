@@ -5,7 +5,7 @@ import Todo from './components/Todo';
 function App() {
   return (
     <div className="App">
-      <h1>Learn redux</h1>
+      <h1>Todo App Using Redux</h1>
       <AddTodo />
       <Todo />
     </div>
