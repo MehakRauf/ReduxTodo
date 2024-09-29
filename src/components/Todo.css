@@ -1,0 +1,40 @@
+/* Todo.css */
+
+.todo-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between; /* Space between text and button */
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee; /* Light separator between items */
+}
+
+.todo-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+
+.todo-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* Red background */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
