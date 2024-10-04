@@ -43,7 +43,7 @@
 
 .todo-button,
 .update-button {
-    background-color: #28a745; 
+    background-color: #28a745;
     color: white;
     border: none;
     border-radius: 6px;
@@ -54,7 +54,7 @@
 }
 
 .todo-button {
-    background-color: #dc3545; 
+    background-color: #dc3545;
 }
 
 .todo-button:hover {
@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 640px) {
-    .todo-item p{
+    .todo-item p {
         margin-right: -200px;
     }
 }
